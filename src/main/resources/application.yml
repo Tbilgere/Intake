@@ -1,0 +1,46 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: Intake
+  batch:
+    job:
+      enabled: false
+    initializer:
+      enabled: false
+      
+mail:
+  host:
+  port:
+  protocol: 
+  smtp.auth:
+  smtp.starttls.enable:
+  recipients:
+  from:
+  replyTo:
+  subject:
+  username:
+  password:
+  content:
+  
+logging:
+  config:
+  path:
+  
+SQL:
+  Staging:
+    Read:
+    ProcessedUpdate:
+    Write:
+    PurgeStatement:
+    
+db:
+  jobRepDB:
+    driverClassName:
+    url:
+    username:
+    password:
+    initScript:
+  output:
+    driverClassName:
+    
